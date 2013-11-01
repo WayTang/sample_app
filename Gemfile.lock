@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/bmabey/database_cleaner.git
-  revision: df55cf7b746e792dba1d11eea0d6e31e3abc7e8c
-  specs:
-    database_cleaner (1.1.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -33,6 +27,7 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.0)
     atomic (1.1.14)
+    bcrypt-ruby (3.1.2)
     bcrypt-ruby (3.1.2-x86-mingw32)
     bootstrap-sass (2.3.2.0)
       sass (~> 3.2)
@@ -181,7 +176,6 @@ DEPENDENCIES
   capybara (= 2.1.0)
   coffee-rails (= 4.0.0)
   cucumber-rails (= 1.4.0)
-  database_cleaner!
   factory_girl_rails (= 4.2.1)
   faker (= 1.1.2)
   jbuilder (= 1.0.2)
